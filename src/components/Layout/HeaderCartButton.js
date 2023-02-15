@@ -8,7 +8,6 @@ import classes from "./HeaderCartButton.module.css";
 const HeaderCartButton = (props) => {
   // the provider is like a 'master prop' that any child component can tap into using useContext,
   // that's why the provider is needed only once at the top of the component tree, and any child that needs access just taps into it via useContext.
-
   const cartCtx = useContext(CartContext);
 
   //   // reduce method which allows us to transform an array of data into a single value (a single number in this case)
